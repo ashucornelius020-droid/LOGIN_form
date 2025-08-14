@@ -14,29 +14,33 @@
             <form action="#" method="post">
                 <h2>Login</h2>
                 <label for="First name"></label>
-                <input type="text" id=" First Name" name="First Name" placeholder="Enter your First name">
+                <input type="text" class=" First-Name" name="First Name" placeholder="Enter your First name">
                 <br>
                 <label for="username"></label>
-                <input type="text" id="Last Name" name="Last Name" placeholder="Enter your Last name">
+                <input type="text" class="Last-Name" name="Last Name" placeholder="Enter your Last name">
                 <br>
+
                 <label for="Gender"></label>
-                <input type="text" id="Gender" name="Gender" placeholder="Enter your Gender">
+                <input type="text" class="Gender" name="Gender" placeholder="Enter your Gender">
                 <br>
                 <label for="DOB"></label>
-                <input type="text" id="DOB" name="DOB" placeholder="Enter your DOB(DD/MM/YY)">
+                <input type="text" class="DOB" name="DOB" placeholder="Enter your DOB(DD/MM/YY)">
                 <br>
                 <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" class="email" name="email" placeholder="Email">
                 <br>
                 <label for="password"></label>
-                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="password" class="password" name="password" placeholder="Password">
+                <br>
+                <label for="password"></label>
+                <input type="password" class="confirmpassword" name="confirm password" placeholder="confirm password">
 
                 <div class="options">
                     <input type="checkbox" id="remember" name="remember">
-                    <label for="remember">Remember me</label>
+                    <label class="remember" for="remember">Remember me</label>
                     <a href="#">Forget Password</a>
-                </div>
-                <button type="submit">Login</button>
+                </div>  
+                <button>Login</button>
                 <p> Don't have an account? <a href="#" id="register">Register</a></p>
             </form>
         </div>
@@ -44,14 +48,25 @@
 
     <div class="table">
         <table>
-            <tr>
+            <thead><tr>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th> Gender</th>
                 <th>DOB</th>
                 <th>Email</th>
                 <th>Password</th>
-            </tr>
+            </tr></thead>
+            <tbody>
+                <!--<tr><td>ashu</td>
+                <td>conelius</td>
+                <td>male</td>
+                <td>22/04/2006</tbody>
+                <td>ascom</td>
+                <td>ashu</td>
+            </tr>-->
+                
+            </tbody>
+            
 
         </table>
     </div>

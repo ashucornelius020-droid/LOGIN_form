@@ -19,7 +19,7 @@ body {
 
 .main {
     width: 500px;
-    height: 700px;
+    height: 800px;
     position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0.17);
@@ -128,10 +128,17 @@ p {
 }
 
 .table{
-    width: 600px;
+    width: 1200px;
 }
 
 table tr th{
+    border: solid 3px;
+    width: 500px;
+    color: blue;
+    padding: 5px;
+}
+
+table tbody td{
     border: solid 3px;
     width: 500px;
     color: blue;
